@@ -1,0 +1,18 @@
+    <style>
+        img { max-width: 100%; height: auto; }
+        body { font-family: Arial, sans-serif; }
+        nav a { margin: 0 10px; 
+               text-decoration: none; }
+        header, footer { background: #f8f8f8; 
+                        padding: 10px; 
+                        text-align: center; }
+        .container { max-width: 1200px; 
+                    margin: 0 auto; 
+                    padding: 15px; }
+        .share-buttons a { margin: 0 5px; 
+                          text-decoration: none; 
+                          padding: 8px 12px; 
+                          background: #007bff; 
+                          color: #fff; 
+                          border-radius: 5px; }
+    </style>
