@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Amazon - Shop Online for Electronics, Fashion, Books & More</title>
+
+    <meta name="description" content="Amazon - Your one-stop online shop for electronics, fashion, books, home essentials, and more. Discover deals and fast delivery.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.amazon.com">
+
+    <!-- Mobile Responsive Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph for Social Sharing -->
+    <meta property="og:title" content="Amazon - Shop Everything Online">
+    <meta property="og:description" content="Shop top deals on electronics, fashion, books, and more at Amazon.">
+    <meta property="og:image" content="https://www.amazon.com/logo.png">
+    <meta property="og:url" content="https://www.amazon.com">
+    <meta property="og:type" content="website">
+
+    <!-- Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    <!-- Add Structured Data for Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Amazon",
+        "url": "https://www.amazon.com",
+        "logo": "https://www.amazon.com/logo.png",
+      
+    }
+    </script>
+
+    <!-- Optimize Loading Speed -->
+    <style>
+        img { max-width: 100%; height: auto; }
+        body { font-family: Arial, sans-serif; }
+        nav a { margin: 0 10px; text-decoration: none; }
+        header, footer { background: #f8f8f8; padding: 10px; text-align: center; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 15px; }
+        .share-buttons a { margin: 0 5px; text-decoration: none; padding: 8px 12px; background: #007bff; color: #fff; border-radius: 5px; }
+    </style>
+</head>
+
+<body itemscope itemtype="https://schema.org/WebPage">
+
+<!-- Header Section -->
+<header>
+    <h1 itemprop="name">Welcome to Amazon - Your Online Shopping Destination</h1>
+    <nav>
+        <a href="https://www.amazon.in/electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics">Electronics</a>
+        <a href="https://www.amazon.in/s?k=fashion&crid=390PRDII943GQ&sprefix=fashion%2Caps%2C250&ref=nb_sb_noss_2">Fashion</a>
+        <a href="https://www.amazon.in/s?k=book&crid=3188HBMW9WGSN&sprefix=book%2Caps%2C251&ref=nb_sb_noss_2">Books</a>
+        <a href="https://www.amazon.in/s?k=home+essentials&crid=1F8MM47NPN7GQ&sprefix=home+essentials%2Caps%2C262&ref=nb_sb_noss_2">Home Essentials</a>
+    </nav>
+</header>
+
+<!-- Main Banner with Alt Text -->
+<section class="container">
+    <a href="https://www.amazon.in/?&tag=googhydrabk1-21" target="_blank">
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/AF/MFD/MFD_PC_Bau_Template_1500x300_unrec._CB580495063_.jpg" 
+             alt="Shop Top Deals at Amazon - Electronics, Fashion, Books, and More"
+             style="width:100%; height:auto; max-width:1500px;">
+    </a>
+</section>
+
+
+
+<!-- Introduction Section -->
+<section class="container">
+    <h2>Why Shop on Amazon?</h2>
+    <p>Amazon offers millions of products across categories like fashion, electronics, books, and home essentials. Enjoy fast delivery, secure payments, and exciting deals every day!</p>
+</section>
+
+<!-- Featured Product (with Schema) -->
+<section class="container">
+    <h2>Featured Product</h2>
+    <article itemscope itemtype="https://schema.org/Product">
+        <img src="image.png" alt="Latest Gaming Laptop - Amazon Exclusive" itemprop="image">
+        <h3 itemprop="name">Latest Gaming Laptop</h3>
+        <p itemprop="description">Experience powerful gaming with the latest high-performance gaming laptop. Available exclusively on Amazon.</p>
+        <p><a href="https://www.amazon.in/s?k=Latest+Gaming+Laptop+-+Amazon+Exclusive&crid=3F4O35NA7YOWE&sprefix=latest+gaming+laptop+-+amazon+exclusive%2Caps%2C254&ref=nb_sb_noss" title="View Gaming Laptop">View Product</a></p>
+    </article>
+</section>
+
+<!-- Internal Links to Categories -->
+<section class="container">
+    <h2>Explore Popular Categories</h2>
+    <ul>
+        <li><a href="https://www.amazon.in/electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics" title="Shop Electronics">Electronics</a></li>
+        <li><a href="https://www.amazon.in/s?k=fashion&crid=390PRDII943GQ&sprefix=fashion%2Caps%2C250&ref=nb_sb_noss_2" title="Shop Fashion">Fashion</a></li>
+        <li><a href="https://www.amazon.in/s?k=book&crid=3188HBMW9WGSN&sprefix=book%2Caps%2C251&ref=nb_sb_noss_2" title="Shop Books">Books</a></li>
+        <li><a href="https://www.amazon.in/s?k=home+essentials&crid=1F8MM47NPN7GQ&sprefix=home+essentials%2Caps%2C262&ref=nb_sb_noss_2" title="Shop Home Essentials">Home Essentials</a></li>
+    </ul>
+</section>
+
+<!-- Share Section with WhatsApp, Facebook, Twitter -->
+<section class="container">
+    <h2>Share With Others</h2>
+    <div class="share-buttons">
+        <a href="https://api.whatsapp.com/send?text=Check%20out%20Amazon%20-%20https://www.amazon.com" target="_blank"
+            style="display:inline-block; background-color:#25D366; color:white; padding:10px 20px; border:none; border-radius:5px; text-decoration:none; font-weight:bold; font-size:14px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo" 
+                 style="height:24px; vertical-align:middle;">
+        </a>
+    </div>
+</section>
+
+
+
+</body>
+</html>
